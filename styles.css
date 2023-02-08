@@ -1,0 +1,34 @@
+*{
+    margin: 0%;
+}
+/* bannar part  */
+header{
+    height: 70vh;
+    background-image: url(./images/banner/banner2.png);
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.bannar{
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+.left{
+    margin-top: 100px;
+    margin-right: 120PX;
+    display: flex;
+    flex-direction: column;
+}
+.left div h1{
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 50px;
+}
+.left div p{
+    text-align: right;
+}
+.left div button{
+ 
+}
