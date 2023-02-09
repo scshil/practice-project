@@ -127,6 +127,28 @@ header{
     border: none;
     border-radius: 5px;
 }
+/* bonous part  */
+.suggestion {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.suggestion div{
+    margin: 20px 0;
+}
+.suggestion button{
+    margin-bottom: 30px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border :none;
+    background-color: aqua;
+    color: red;
+    text-shadow: 5px 5px 5px whitesmoke;
+    font-weight: 900;
+}
+
+/* footer */
 footer{
     background-color: black;
     color: white;
